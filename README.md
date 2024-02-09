@@ -10,8 +10,8 @@ The Carbon Emissions Calculator is a C program designed to help users estimate t
 - Estimates the number of trees needed to offset the user's carbon footprint.
 
 ## Usage
-1. Compile the program using the following flags:
-2. Run the compiled executable:
+1. Compile the program using the following flags: gcc -Wall -std=c99 carbon_emissions_calculator.c -o carbon_calculator -lm
+2. Run the compiled executable: ./carbon_calculator
 3. Follow the prompts to input your data.
 4. View the summary of your carbon emissions and related information.
 
